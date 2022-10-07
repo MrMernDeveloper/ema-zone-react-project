@@ -13,10 +13,15 @@
 
 .navbar a{
     text-decoration: none;
-    color: #FFFFFF;
     font-size: 17px;
     margin-right: 32px;
 }
 .navbar a:hover{
     color: orange;
+}
+.active {
+    color: orangered;
+}
+.inactive a{
+    color: black;
 }
