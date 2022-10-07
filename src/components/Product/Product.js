@@ -10,7 +10,7 @@ const Product = ({ product, handelAddToCart }) => {
     
 
     return (
-        <div className='product'>
+        <div className='product' data-aos="zoom-in">
                 <img src={img} alt="" />
             <div className='product-info'>
                 <p className='product-name'>{name}</p>
